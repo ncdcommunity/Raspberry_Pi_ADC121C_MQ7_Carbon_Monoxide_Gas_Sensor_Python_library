@@ -23,12 +23,11 @@ Hardware needed to interface ADC121C_MQ7 Sensor With Raspberry Pi :
 Download and install smbus library on Raspberry pi. Steps to install smbus are provided at:
 
 https://pypi.python.org/pypi/smbus-cffi/0.5.1
+
 Download (or git pull) the code in pi. Run the program.
 
 ```cpp
-
 $> python ADC121C_MQ7.py
-
 ```
 
 The lib is a sample library, you will need to calibrate the sensor according to your application requirement.
